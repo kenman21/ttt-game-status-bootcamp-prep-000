@@ -58,7 +58,11 @@ end
       
 def winner(board)
   if won?(board)
+<<<<<<< HEAD
     return board[won?(board)[0]]
+=======
+    return won?(board)[0]
+>>>>>>> 2fd34e5cce105297372d59ff706f502e5c7bbd66
   else
     return nil
   end
